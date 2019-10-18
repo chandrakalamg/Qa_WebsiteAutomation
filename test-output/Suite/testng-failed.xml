@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" verbose="3" name="Failed suite [Suite]" parallel="tests">
+  <test thread-count="2" verbose="3" name="IE(failed)" parallel="methods">
+    <parameter name="browser" value=""/>
+    <classes>
+      <class name="com.seleniumautomation.com.seleniumautomation.Surpass_test">
+        <methods>
+          <include name="Setupbrowser"/>
+          <include name="afterMethod"/>
+          <include name="verifyItemsearch"/>
+        </methods>
+      </class> <!-- com.seleniumautomation.com.seleniumautomation.Surpass_test -->
+    </classes>
+  </test> <!-- IE(failed) -->
+</suite> <!-- Failed suite [Suite] -->

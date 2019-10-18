@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="30069" started-at="2019-10-18T11:18:20Z" finished-at="2019-10-18T11:18:50Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="30069" started-at="2019-10-18T11:18:20Z" finished-at="2019-10-18T11:18:50Z">
+      <class name="com.qa.Test.Scenaro_test">
+        <test-method status="PASS" signature="verifyItemsearch()[pri:0, instance:com.qa.Test.Scenaro_test@8bd1b6a]" name="verifyItemsearch" duration-ms="28811" started-at="2019-10-18T11:18:20Z" finished-at="2019-10-18T11:18:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyItemsearch -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.qa.Test.Scenaro_test@8bd1b6a]" name="afterMethod" is-config="true" duration-ms="1197" started-at="2019-10-18T11:18:49Z" finished-at="2019-10-18T11:18:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.qa.Test.Scenaro_test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
