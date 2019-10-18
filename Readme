@@ -1,0 +1,14 @@
+AutomationTestFlow:
+Application :https://regression.surpass-preview.com/Login?ReturnUrl=%2f
+Selenum with maven and TestNG 
+ - POM design pattern/framework is used
+ - 2 packages
+ - class for each pages
+ - pageobject - Parent class
+ - other classes extend pageobject class
+ - Testpackage - Testclass
+ - where all pageclasses called and executed
+ 
+ - output - number of rows with searched input.
+ 
+ - code pushed to git
